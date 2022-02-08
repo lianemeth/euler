@@ -27,7 +27,7 @@ func SieveOfEratosthenes(n int) []int {
 	return primes
 }
 
-func main() {
+func eulerProblem10() {
 	pr := SieveOfEratosthenes(2000000)
 	sum := 0
 	for _, p := range pr {
